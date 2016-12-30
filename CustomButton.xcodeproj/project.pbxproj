@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		9249E9491E159E5A0066B986 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9249E9481E159E5A0066B986 /* main.m */; };
 		9249E94C1E159E5A0066B986 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9249E94B1E159E5A0066B986 /* AppDelegate.m */; };
-		9249E94F1E159E5A0066B986 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9249E94E1E159E5A0066B986 /* ViewController.m */; };
 		9249E9521E159E5A0066B986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9249E9501E159E5A0066B986 /* Main.storyboard */; };
 		9249E9541E159E5A0066B986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9249E9531E159E5A0066B986 /* Assets.xcassets */; };
 		9249E9571E159E5A0066B986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9249E9551E159E5A0066B986 /* LaunchScreen.storyboard */; };
 		9249E9621E159E5A0066B986 /* CustomButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9249E9611E159E5A0066B986 /* CustomButtonTests.m */; };
 		9249E96D1E159E5A0066B986 /* CustomButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9249E96C1E159E5A0066B986 /* CustomButtonUITests.m */; };
+		9249E97E1E159EFF0066B986 /* ButtonViewControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9249E97C1E159EFF0066B986 /* ButtonViewControl.m */; };
+		9249E97F1E159EFF0066B986 /* ButtonViewControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9249E97D1E159EFF0066B986 /* ButtonViewControl.xib */; };
+		9249E9821E15BD4F0066B986 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9249E9811E15BD4F0066B986 /* QuartzCore.framework */; };
+		9249E9841E15C3E20066B986 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9249E9831E15C3E20066B986 /* QuickLook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		9249E9481E159E5A0066B986 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9249E94A1E159E5A0066B986 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9249E94B1E159E5A0066B986 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9249E94D1E159E5A0066B986 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9249E94E1E159E5A0066B986 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9249E9511E159E5A0066B986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9249E9531E159E5A0066B986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9249E9561E159E5A0066B986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,11 @@
 		9249E9681E159E5A0066B986 /* CustomButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9249E96C1E159E5A0066B986 /* CustomButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomButtonUITests.m; sourceTree = "<group>"; };
 		9249E96E1E159E5A0066B986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9249E97B1E159EFF0066B986 /* ButtonViewControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewControl.h; sourceTree = "<group>"; };
+		9249E97C1E159EFF0066B986 /* ButtonViewControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewControl.m; sourceTree = "<group>"; };
+		9249E97D1E159EFF0066B986 /* ButtonViewControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonViewControl.xib; sourceTree = "<group>"; };
+		9249E9811E15BD4F0066B986 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9249E9831E15C3E20066B986 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9249E9841E15C3E20066B986 /* QuickLook.framework in Frameworks */,
+				9249E9821E15BD4F0066B986 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +93,7 @@
 				9249E9601E159E5A0066B986 /* CustomButtonTests */,
 				9249E96B1E159E5A0066B986 /* CustomButtonUITests */,
 				9249E9451E159E5A0066B986 /* Products */,
+				9249E9801E15BD4F0066B986 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +110,9 @@
 		9249E9461E159E5A0066B986 /* CustomButton */ = {
 			isa = PBXGroup;
 			children = (
+				9249E97A1E159EC10066B986 /* ButtonUi */,
 				9249E94A1E159E5A0066B986 /* AppDelegate.h */,
 				9249E94B1E159E5A0066B986 /* AppDelegate.m */,
-				9249E94D1E159E5A0066B986 /* ViewController.h */,
-				9249E94E1E159E5A0066B986 /* ViewController.m */,
 				9249E9501E159E5A0066B986 /* Main.storyboard */,
 				9249E9531E159E5A0066B986 /* Assets.xcassets */,
 				9249E9551E159E5A0066B986 /* LaunchScreen.storyboard */,
@@ -138,6 +146,25 @@
 				9249E96E1E159E5A0066B986 /* Info.plist */,
 			);
 			path = CustomButtonUITests;
+			sourceTree = "<group>";
+		};
+		9249E97A1E159EC10066B986 /* ButtonUi */ = {
+			isa = PBXGroup;
+			children = (
+				9249E97B1E159EFF0066B986 /* ButtonViewControl.h */,
+				9249E97C1E159EFF0066B986 /* ButtonViewControl.m */,
+				9249E97D1E159EFF0066B986 /* ButtonViewControl.xib */,
+			);
+			path = ButtonUi;
+			sourceTree = "<group>";
+		};
+		9249E9801E15BD4F0066B986 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9249E9831E15C3E20066B986 /* QuickLook.framework */,
+				9249E9811E15BD4F0066B986 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +275,7 @@
 			files = (
 				9249E9571E159E5A0066B986 /* LaunchScreen.storyboard in Resources */,
 				9249E9541E159E5A0066B986 /* Assets.xcassets in Resources */,
+				9249E97F1E159EFF0066B986 /* ButtonViewControl.xib in Resources */,
 				9249E9521E159E5A0066B986 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,8 +301,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9249E94F1E159E5A0066B986 /* ViewController.m in Sources */,
 				9249E94C1E159E5A0066B986 /* AppDelegate.m in Sources */,
+				9249E97E1E159EFF0066B986 /* ButtonViewControl.m in Sources */,
 				9249E9491E159E5A0066B986 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
